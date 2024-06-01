@@ -330,8 +330,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url("assets/img/jeja.jpg") top center;
+  height: 75vh;
+  background: url("../img/jeja.jpg") top center;
   background-size: cover;
   padding: 0 15px;
 }
