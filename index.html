@@ -84,7 +84,23 @@
                       <div class="about-img">
                         <img src="assets/img/hero-bg.jpeg" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
-                  
+                   <style>
+                        /* CSS for Slide-in Animation from Left to Center */
+                        @keyframes slideInFromLeft {
+                          from {
+                            transform: translateX(-100%);
+                          }
+                          to {
+                            transform: translateX(0);
+                          }
+                        }
+
+                        .img-fluid.rounded.b-shadow-a {
+                          animation: slideInFromLeft 1s ease forwards;
+                          position: relative;
+                        }
+                    
+                    </style>
                   
                   
                   
